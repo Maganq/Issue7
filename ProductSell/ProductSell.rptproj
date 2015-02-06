@@ -10,12 +10,12 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>FiscalSell.rdl</Name>
-      <FullPath>FiscalSell.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>SubreportforFiscalSell.rdl</Name>
       <FullPath>SubreportforFiscalSell.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FiscalSell.rdl</Name>
+      <FullPath>FiscalSell.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>

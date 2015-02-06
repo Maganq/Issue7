@@ -497,7 +497,7 @@
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
           <Top>0.17583in</Top>
-          <Left>9.51958in</Left>
+          <Left>7.01958in</Left>
           <Height>0.25in</Height>
           <Width>1in</Width>
           <Style>
@@ -582,11 +582,10 @@
             <Value>=Parameters!Quarter.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        ProductName, SumRevenue, SumQuantity, Subcategory, CategoryKey, Category, FiscalQuarter, FiscalYear, RegionCountryName
-FROM            V_ProductTopSellCategoryYear
-WHERE        (RegionCountryName = @Country) and Category=@Category and Subcategory=@Subcategory and FiscalYear=@Year and FiscalQuarter=@Quarter
-ORDER BY FiscalYear , FiscalQuarter ,Category
-</CommandText>
+        <CommandText>SELECT        SumRevenue, SumQuantity, ProductName, Category, Subcategory, RegionCountryName, FiscalQuarter, FiscalYear
+FROM            V_ProductSellQuarterSubcategory
+WHERE        (RegionCountryName = @Country) AND (Category = @Category) AND (Subcategory = @Subcategory) AND (FiscalYear = @Year) AND (FiscalQuarter = @Quarter)
+ORDER BY FiscalYear, FiscalQuarter, Category</CommandText>
       </Query>
       <Fields>
         <Field Name="ProductName">
@@ -604,10 +603,6 @@ ORDER BY FiscalYear , FiscalQuarter ,Category
         <Field Name="Subcategory">
           <DataField>Subcategory</DataField>
           <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="CategoryKey">
-          <DataField>CategoryKey</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="Category">
           <DataField>Category</DataField>

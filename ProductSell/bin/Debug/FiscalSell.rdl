@@ -19,7 +19,9 @@
                             <Style />
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Textbox13</rd:DefaultName>
@@ -50,7 +52,9 @@
                             <Style />
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Textbox7</rd:DefaultName>
@@ -83,7 +87,9 @@
                             <Style />
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Textbox14</rd:DefaultName>
@@ -114,7 +120,9 @@
                             <Style />
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Center</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Textbox5</rd:DefaultName>
@@ -149,7 +157,9 @@
                             </Style>
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Left</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Textbox15</rd:DefaultName>
@@ -181,7 +191,9 @@
                             </Style>
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Left</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Textbox4</rd:DefaultName>
@@ -204,10 +216,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.73958in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -255,7 +267,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox19</rd:DefaultName>
@@ -288,7 +302,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox20</rd:DefaultName>
@@ -352,7 +368,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>SumRevenue</rd:DefaultName>
@@ -385,7 +403,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox12</rd:DefaultName>
@@ -424,7 +444,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox6</rd:DefaultName>
@@ -459,7 +481,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox8</rd:DefaultName>
@@ -597,10 +621,14 @@
                                 <TextRuns>
                                   <TextRun>
                                     <Value>SumRevenue</Value>
-                                    <Style />
+                                    <Style>
+                                      <FontWeight>Bold</FontWeight>
+                                    </Style>
                                   </TextRun>
                                 </TextRuns>
-                                <Style />
+                                <Style>
+                                  <TextAlign>Center</TextAlign>
+                                </Style>
                               </Paragraph>
                             </Paragraphs>
                             <rd:DefaultName>Textbox2</rd:DefaultName>
@@ -675,10 +703,14 @@
                                 <TextRuns>
                                   <TextRun>
                                     <Value>SumRevenue</Value>
-                                    <Style />
+                                    <Style>
+                                      <FontWeight>Bold</FontWeight>
+                                    </Style>
                                   </TextRun>
                                 </TextRuns>
-                                <Style />
+                                <Style>
+                                  <TextAlign>Center</TextAlign>
+                                </Style>
                               </Paragraph>
                             </Paragraphs>
                             <rd:DefaultName>Textbox11</rd:DefaultName>
@@ -729,7 +761,9 @@
                             <Style />
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Left</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Category</rd:DefaultName>
@@ -749,7 +783,7 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>1in</Size>
+                    <Size>1.45833in</Size>
                     <CellContents>
                       <Textbox Name="Textbox18">
                         <CanGrow>true</CanGrow>
@@ -762,7 +796,9 @@
                                 <Style />
                               </TextRun>
                             </TextRuns>
-                            <Style />
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
                           </Paragraph>
                         </Paragraphs>
                         <rd:DefaultName>Textbox18</rd:DefaultName>
@@ -793,7 +829,7 @@
                     </SortExpression>
                   </SortExpressions>
                   <TablixHeader>
-                    <Size>1in</Size>
+                    <Size>1.45833in</Size>
                     <CellContents>
                       <Textbox Name="Subcategory">
                         <CanGrow>true</CanGrow>
@@ -806,7 +842,9 @@
                                 <Style />
                               </TextRun>
                             </TextRuns>
-                            <Style />
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
                           </Paragraph>
                         </Paragraphs>
                         <rd:DefaultName>Subcategory</rd:DefaultName>
@@ -847,7 +885,9 @@
                             </Style>
                           </TextRun>
                         </TextRuns>
-                        <Style />
+                        <Style>
+                          <TextAlign>Left</TextAlign>
+                        </Style>
                       </Paragraph>
                     </Paragraphs>
                     <rd:DefaultName>Textbox1</rd:DefaultName>
@@ -867,7 +907,7 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>1in</Size>
+                    <Size>1.45833in</Size>
                     <CellContents>
                       <Textbox Name="Textbox3">
                         <CanGrow>true</CanGrow>
@@ -882,7 +922,9 @@
                                 </Style>
                               </TextRun>
                             </TextRuns>
-                            <Style />
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
                           </Paragraph>
                         </Paragraphs>
                         <rd:DefaultName>Textbox3</rd:DefaultName>
@@ -909,7 +951,7 @@
         <Top>0.05556in</Top>
         <Left>0.98834in</Left>
         <Height>1.5in</Height>
-        <Width>5.52083in</Width>
+        <Width>7.59375in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -993,57 +1035,6 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="Sell">
-      <Query>
-        <DataSourceName>ContoroRetail</DataSourceName>
-        <QueryParameters>
-          <QueryParameter Name="@Country">
-            <Value>=Parameters!Country.Value</Value>
-          </QueryParameter>
-        </QueryParameters>
-        <CommandText>SELECT        ProductName, SumRevenue, SumQuantity, Subcategory, CategoryKey, Category, FiscalQuarter, FiscalYear, RegionCountryName
-FROM            V_ProductTopSellCategoryYear
-where RegionCountryName=@Country </CommandText>
-      </Query>
-      <Fields>
-        <Field Name="ProductName">
-          <DataField>ProductName</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="SumRevenue">
-          <DataField>SumRevenue</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="SumQuantity">
-          <DataField>SumQuantity</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Subcategory">
-          <DataField>Subcategory</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="CategoryKey">
-          <DataField>CategoryKey</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="Category">
-          <DataField>Category</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="FiscalQuarter">
-          <DataField>FiscalQuarter</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="FiscalYear">
-          <DataField>FiscalYear</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="RegionCountryName">
-          <DataField>RegionCountryName</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-    </DataSet>
     <DataSet Name="Country">
       <Query>
         <DataSourceName>ContoroRetail</DataSourceName>
@@ -1054,6 +1045,53 @@ FROM            V_ProductTopSellCategoryYear</CommandText>
         <Field Name="RegionCountryName">
           <DataField>RegionCountryName</DataField>
           <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="Sell">
+      <Query>
+        <DataSourceName>ContoroRetail</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@Country">
+            <Value>=Parameters!Country.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT        SumRevenue, SumQuantity, ProductName, Category, Subcategory, RegionCountryName, FiscalQuarter, FiscalYear
+FROM            V_ProductSellQuarterSubcategory
+WHERE        (RegionCountryName = @Country)</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="SumRevenue">
+          <DataField>SumRevenue</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Category">
+          <DataField>Category</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SumQuantity">
+          <DataField>SumQuantity</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ProductName">
+          <DataField>ProductName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Subcategory">
+          <DataField>Subcategory</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RegionCountryName">
+          <DataField>RegionCountryName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FiscalQuarter">
+          <DataField>FiscalQuarter</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FiscalYear">
+          <DataField>FiscalYear</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
